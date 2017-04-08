@@ -1,2 +1,2 @@
 # TheBigTest
-Set up a modular maven test project with selenium-cucumber.
+Set up a maven test project with java-selenium-cucumber and automate with Jenkins for CI/CD
