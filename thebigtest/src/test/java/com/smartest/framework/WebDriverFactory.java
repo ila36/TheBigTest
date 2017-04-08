@@ -36,8 +36,8 @@ public class WebDriverFactory {
 			//capability.setCapability("platform", platform);
 			//capability.setCapability("browserName", browserName);
 			// capability.setCapability("version", version);
-			System.setProperty("webdriver.opera.driver", "/home/ila/testSoftware/operadriver_linux64/operadriver");
-			driver = new OperaDriver();
+			System.setProperty("webdriver.opera.driver", "/home/ila/testSoftware/drivers/operadriver");
+			driver = new ChromeDriver();
 		}
 		return driver;
 	}
