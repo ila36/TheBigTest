@@ -3,6 +3,7 @@ package com.smartest.framework;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.opera.OperaDriver;
 
 public class WebDriverFactory {
 
@@ -29,6 +30,14 @@ public class WebDriverFactory {
 			// capability.setCapability("version", version);
 			System.setProperty("webdriver.chrome.driver", "/home/ila/testSoftware/drivers/chromedriver");
 			driver = new ChromeDriver();
+		}
+		else if (System.getProperty("browserName").equals("opera")) {
+			//capability = new DesiredCapabilities(browserName, null, platform);
+			//capability.setCapability("platform", platform);
+			//capability.setCapability("browserName", browserName);
+			// capability.setCapability("version", version);
+			System.setProperty("webdriver.opera.driver", "/home/ila/testSoftware/drivers/operadriver");
+			driver = new OperaDriver();
 		}
 		return driver;
 	}
