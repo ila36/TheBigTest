@@ -37,10 +37,10 @@ public class WebDriverFactory {
 			driver = new ChromeDriver();
 		}
 		else if (System.getProperty("browserName").equals("opera")) {
-			OperaOptions chromeOptions = new OperaOptions();
-			chromeOptions.setBinary("/usr/bin/opera");
+			OperaOptions operaOptions = new OperaOptions();
+			operaOptions.setBinary("/usr/bin/opera");
 			System.setProperty("webdriver.opera.driver", "/home/ila/testSoftware/drivers/operadriver");
-			driver = new OperaDriver();
+			driver = new OperaDriver(operaOptions);
 		}
 		return driver;
 	}
