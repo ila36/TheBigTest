@@ -1,9 +1,13 @@
 package com.smartest.framework;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.opera.OperaOptions;
+
 
 public class WebDriverFactory {
 
@@ -15,6 +19,7 @@ public class WebDriverFactory {
 
 	public WebDriver setBrowserChoicesFromJenkins() {
 		//DesiredCapabilities capability;
+		
 		System.out.println("*************************************************"+ System.getProperty("browserName"));
 		if (System.getProperty("browserName").equals("firefox")) {
 			//capability = new DesiredCapabilities(browserName, null, platform);
@@ -32,12 +37,10 @@ public class WebDriverFactory {
 			driver = new ChromeDriver();
 		}
 		else if (System.getProperty("browserName").equals("opera")) {
-			//capability = new DesiredCapabilities(browserName, null, platform);
-			//capability.setCapability("platform", platform);
-			//capability.setCapability("browserName", browserName);
-			// capability.setCapability("version", version);
+			OperaOptions chromeOptions = new OperaOptions();
+			chromeOptions.setBinary("/usr/bin/opera");
 			System.setProperty("webdriver.opera.driver", "/home/ila/testSoftware/drivers/operadriver");
-			driver = new ChromeDriver();
+			driver = new OperaDriver();
 		}
 		return driver;
 	}
