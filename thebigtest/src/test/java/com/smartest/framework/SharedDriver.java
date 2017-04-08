@@ -3,10 +3,8 @@ package com.smartest.framework;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.OutputType;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
-import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import com.smartest.framework.WebDriverFactory;
 
@@ -16,8 +14,8 @@ import cucumber.api.java.Before;
 
 public class SharedDriver extends EventFiringWebDriver {
 	
-	private static WebDriverFactory d = new WebDriverFactory(BrowserType.FIREFOX, Platform.LINUX);
-    private static final WebDriver REAL_DRIVER;
+	private static final WebDriver REAL_DRIVER;
+	private static WebDriverFactory d = new WebDriverFactory();
 	private static final Thread CLOSE_THREAD = new Thread() {
         @Override
         public void run() {
@@ -26,7 +24,7 @@ public class SharedDriver extends EventFiringWebDriver {
     };
 
     static {
-    	REAL_DRIVER = d.setUpBrowserType();
+    	REAL_DRIVER = d.setBrowserChoicesFromJenkins();
     	REAL_DRIVER.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         Runtime.getRuntime().addShutdownHook(CLOSE_THREAD);
     }
