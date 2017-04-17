@@ -12,16 +12,17 @@ import org.openqa.selenium.opera.OperaOptions;
 public class WebDriverFactory {
 
 	private WebDriver driver;
+	private String browserName;
 	
-	public WebDriverFactory() {
-		
+	public WebDriverFactory(String browserName) {
+		this.browserName = browserName;
 	}
 
-	public WebDriver setBrowserChoicesFromJenkins() {
+	public WebDriver setBrowserChoices() {
 		//DesiredCapabilities capability;
 		
 		System.out.println("*************************************************"+ System.getProperty("browserName"));
-		if (System.getProperty("browserName").equals("firefox")) {
+		if (browserName.equals("firefox")) {
 			//capability = new DesiredCapabilities(browserName, null, platform);
 			//capability.setCapability("platform", platform);
 			//capability.setCapability("browserName", browserName);

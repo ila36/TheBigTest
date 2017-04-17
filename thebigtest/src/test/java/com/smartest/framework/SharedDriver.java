@@ -15,7 +15,7 @@ import cucumber.api.java.Before;
 public class SharedDriver extends EventFiringWebDriver {
 	
 	private static final WebDriver REAL_DRIVER;
-	private static WebDriverFactory d = new WebDriverFactory();
+	private static WebDriverFactory d = new WebDriverFactory("firefox");
 	private static final Thread CLOSE_THREAD = new Thread() {
         @Override
         public void run() {
@@ -24,7 +24,7 @@ public class SharedDriver extends EventFiringWebDriver {
     };
 
     static {
-    	REAL_DRIVER = d.setBrowserChoicesFromJenkins();
+    	REAL_DRIVER = d.setBrowserChoices();
     	REAL_DRIVER.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         Runtime.getRuntime().addShutdownHook(CLOSE_THREAD);
     }
