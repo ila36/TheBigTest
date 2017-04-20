@@ -14,17 +14,18 @@ public class CookiesAcceptButton {
 	private WebDriver driver;
 	private static final By COOKIES_ACCEPT_BUTTON = By.xpath("/html/body/div[1]/div/p/a");
 	private static final By COOKIES_SPRITE_ICON_SAVED = By.cssSelector("body > div.cc-cookies > div > p > a > span");
-	
+
 	public CookiesAcceptButton(WebDriver driver) {
 		this.driver = driver;
 	}
-	
-	public WebElement getCookiesAcceptButton() {
-		return driver.findElement(COOKIES_ACCEPT_BUTTON);
+
+	public String getCookiesAcceptButton() {
+		return driver.findElement(COOKIES_ACCEPT_BUTTON).getText();
 	}
 
-	public WebElement getCookiesSpriteIconSaved() {
-		return driver.findElement(COOKIES_SPRITE_ICON_SAVED);
+	public String getCookiesSpriteIconSaved() {
+		return driver.findElement(COOKIES_SPRITE_ICON_SAVED).getCssValue("background-image").replaceAll("url\\(\"", "")
+				.replaceAll("\"\\)", "");
 	}
 
 	public Set<Cookie> clickOnCookiesAcceptButton() {
@@ -33,10 +34,10 @@ public class CookiesAcceptButton {
 			WebElement cookieAcceptButton = driver.findElement(COOKIES_ACCEPT_BUTTON);
 			wait.until(ExpectedConditions.elementToBeClickable(cookieAcceptButton)).click();
 		} else {
-			System.out.println("Button Accepteer Cookies NOT displayed:"
-					+ driver.findElement(COOKIES_ACCEPT_BUTTON).getText());
+			System.out.println(
+					"Button Accepteer Cookies NOT displayed:" + driver.findElement(COOKIES_ACCEPT_BUTTON).getText());
 		}
 		return driver.manage().getCookies();
 	}
-	
+
 }

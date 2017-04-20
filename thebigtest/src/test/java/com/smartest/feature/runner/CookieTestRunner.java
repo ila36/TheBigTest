@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "classpath:features", glue = {
-		"com/smartest/feature/acceptance" }, tags = "@cookie", plugin = { "pretty",
+		"com/smartest/feature/acceptance" }, tags = "@story", plugin = { "pretty",
 				"html:target/cucumber-html-report/bigTest/CookieReport" })
 
 public class CookieTestRunner {

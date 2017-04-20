@@ -21,11 +21,11 @@ public class CookiesPolicy {
 		this.driver = driver;
 	}
 
-	public WebElement getCookiesPolicyLink() {
-		return driver.findElement(COOKIES_POLICY_LINK);
+	public String getCookiesPolicyLink() {
+		return driver.findElement(COOKIES_POLICY_LINK).getText();
 	}
 
-	public Response checkStatusCodeOk200() {
+	public Response getResponse() {
 		WebDriverWait wait = new WebDriverWait(driver, 3);
 		WebElement linkText = wait
 				.until(ExpectedConditions.elementToBeClickable(driver.findElement(COOKIES_POLICY_LINK)));
@@ -39,5 +39,4 @@ public class CookiesPolicy {
 		return response;
 
 	}
-	
 }
