@@ -1,34 +1,34 @@
 package com.smartest.feature.pages;
 
+import java.util.Set;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebElement;
-//import com.smartest.feature.components.LoginButtonHome;;
 
-public class HomePage {
+import net.serenitybdd.core.annotations.findby.FindBy;
+import net.thucydides.core.annotations.DefaultUrl;
+import net.thucydides.core.annotations.Managed;
+import net.thucydides.core.pages.PageObject;
+
+@DefaultUrl("https://www.woningnetregioamsterdam.nl/")
+public class HomePage extends PageObject {
 	
-	private WebDriver driver;
-	private static final String WONINGNET_HOME_PAGE_URL = "https://www.woningnetregioamsterdam.nl/";
-	private static final By BODY = By.cssSelector("body");
+	@Managed(uniqueSession = true)
 	
-	public HomePage(WebDriver driver) {
-		this.driver = driver;
+	@FindBy(css = "body")
+	private WebElement body;
+	
+	public void deleteAllNonFunctionalCookies(){
+		Set<Cookie> cookies = getDriver().manage().getCookies();
+		System.out.println(cookies);
+		if(cookies.contains("cc_cookie_accept") || cookies.contains("cc_cookie_decline")){
+				getDriver().manage().deleteCookieNamed("cc_cookie_accept");
+				getDriver().manage().deleteCookieNamed("cc_cookie_decline");
+		}
 	}
 	
-	
-	
-	public static String getWoningnetHomePageUrl() {
-		return WONINGNET_HOME_PAGE_URL;
-	}
-
-	public HomePage open(){
-		driver.get(WONINGNET_HOME_PAGE_URL);
-		return this;
-	}
-
-	public WebElement getBody() {
-		return driver.findElement(BODY);
+	public Set<Cookie> getAllCookiesFromCurrentBrowserSession() {
+		return getDriver().manage().getCookies();
 	}
 	
 }

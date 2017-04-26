@@ -13,16 +13,14 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.test.skip>true</maven.test.skip>
-		<webdriver.driver>firefox</webdriver.driver>
-		<webdriver.gecko.driver>/home/ila/testSoftware/drivers/geckodriver</webdriver.gecko.driver>
-		<webdriver.chrome.driver>/home/ila/testSoftware/drivers/chromedriver</webdriver.chrome.driver>
-	</properties>
+    </properties>
+
 	<!-- Serinity -->
 	<dependencies>
 		<dependency>
 			<groupId>net.serenity-bdd</groupId>
 			<artifactId>serenity-core</artifactId>
-			<version>1.2.5-rc.5</version>
+			<version>1.2.4</version>
 		</dependency>
 		<dependency>
 			<groupId>net.serenity-bdd</groupId>
@@ -44,7 +42,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>2.53.1</version>
+			<version>3.3.1</version>
 		</dependency>
 		<!-- junit -->
 		<dependency>
@@ -69,12 +67,6 @@
 			<artifactId>guava</artifactId>
 			<version>21.0</version>
 		</dependency>
-		<!-- Groovy -->
-		<dependency>
-			<groupId>org.codehaus.groovy</groupId>
-			<artifactId>groovy-json</artifactId>
-			<version>2.0.0-rc-4</version>
-		</dependency>
 
 	</dependencies>
 	<build>
@@ -93,17 +85,17 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19.1</version>
 				<configuration>
-					<skipTests>false</skipTests>
+					<skipTests>true</skipTests>
 					<parallel>classes</parallel>
 					<threadCount>10</threadCount>
 					<includes>
 						<include>**/*TestRunner</include>
 					</includes>
 					<systemPropertyVariables>
-						<webdriver.driver>${webdriver.driver}</webdriver.driver>
-						<webdriver.gecko.driver>${webdriver.gecko.driver}</webdriver.gecko.driver>
-						<webdriver.chrome.driver>${webdriver.chrome.driver}</webdriver.chrome.driver>
-						<!--webdriver.opera.driver>${webdriver.opera.driver}</webdriver.opera.driver -->
+						<webdriver.driver>firefox</webdriver.driver>
+						<webdriver.gecko.driver>/home/ila/testSoftware/drivers/geckodriver</webdriver.gecko.driver>
+						<webdriver.chrome.driver>/home/ila/testSoftware/drivers/chromedriver</webdriver.chrome.driver>
+						<!--webdriver.opera.driver>/home/ila/testSoftware/drivers/operadriver</webdriver.opera.driver -->
 					</systemPropertyVariables>
 				</configuration>
 				<dependencies>
@@ -125,10 +117,10 @@
 						<include>**/*TestRunner</include>
 					</includes>
 					<systemPropertyVariables>
-						<webdriver.driver>${webdriver.driver}</webdriver.driver>
-						<webdriver.gecko.driver>${webdriver.gecko.driver}</webdriver.gecko.driver>
-						<webdriver.chrome.driver>${webdriver.chrome.driver}</webdriver.chrome.driver>
-						<!--webdriver.opera.driver>${webdriver.opera.driver}</webdriver.opera.driver -->
+						<webdriver.driver>firefox</webdriver.driver>
+						<webdriver.gecko.driver>/home/ila/testSoftware/drivers/geckodriver</webdriver.gecko.driver>
+						<webdriver.chrome.driver>/home/ila/testSoftware/drivers/chromedriver</webdriver.chrome.driver>
+						<!--webdriver.opera.driver>/home/ila/testSoftware/drivers/operadriver</webdriver.opera.driver-->
 					</systemPropertyVariables>
 				</configuration>
 				<dependencies>

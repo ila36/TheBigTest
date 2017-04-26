@@ -1,14 +1,14 @@
-package com.smartest.feature.runner;
+package com.test.serenity.runTests;
 
 import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
 
 import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+import net.serenitybdd.cucumber.CucumberWithSerenity;
 
-@RunWith(Cucumber.class)
-@CucumberOptions(features = "classpath:features", glue = {
-		"com/smartest/feature/acceptance" }, tags = "@story", plugin = { "pretty",
-				"html:target/cucumber-html-report/bigTest/CookieReport" })
+@RunWith(CucumberWithSerenity.class)
+@CucumberOptions(features = "src/test/resources/features", glue = {
+		"com.test.serenity.stepDefinitions"}, tags = "@story")
 
 public class CookieTestRunner {
 }

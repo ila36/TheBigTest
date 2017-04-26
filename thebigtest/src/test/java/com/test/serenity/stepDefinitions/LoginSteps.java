@@ -1,3 +1,4 @@
+package com.test.serenity.stepDefinitions;
 //package com.smartest.feature.acceptance;
 //
 //import cucumber.api.java.en.Given;

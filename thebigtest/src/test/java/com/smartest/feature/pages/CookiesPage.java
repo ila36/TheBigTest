@@ -1,38 +1,61 @@
 package com.smartest.feature.pages;
 
-import org.openqa.selenium.By;
+import java.util.Set;
+
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
-import com.smartest.feature.components.CookiesAcceptButton;
-import com.smartest.feature.components.CookiesPolicy;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class CookiesPage {
+import com.jayway.restassured.RestAssured;
+import com.jayway.restassured.response.Response;
+import net.serenitybdd.core.annotations.findby.FindBy;
+import net.thucydides.core.annotations.Managed;
+import net.thucydides.core.pages.PageObject;
 
-	WebDriver driver;
-	private CookiesAcceptButton cookiesAcceptButton;
-	private CookiesPolicy cookiesPolicy;
-	private static final By COOKIES_NOTIFICATION_TEXT = By.cssSelector("div.cc-cookies > div");  
-	private static final By COOKIES_CONTAINER = By.cssSelector("div.cc-cookies");
+public class CookiesPage extends PageObject {
+
+	@Managed(uniqueSession = true)
+
+	@FindBy(css = "div.cc-cookies > div")
+	private WebElement cookiesNotificationText;
+
+	@FindBy(css = "div.cc-cookies > div > a")
+	private WebElement cookiesPolicyLink;
+
+	@FindBy(css = "div.cc-cookies > div > p > a")
+	private WebElement cookiesButton;
+
 	
-	public CookiesPage(WebDriver driver) {
-		this.cookiesPolicy = new CookiesPolicy(driver);
-		this.cookiesAcceptButton = new CookiesAcceptButton(driver);
-		this.driver = driver;
-	}
-	
-	public String getCookiesContainer() {
-		return driver.findElement(COOKIES_CONTAINER).getCssValue("z-index");
-	}
-	
-	public String getCookiesNotificationText() {
-		return driver.findElement(COOKIES_NOTIFICATION_TEXT).getText().replaceAll("\n", "");
-	}
-	
-	public CookiesPolicy cookiesPolicy(){
-		return cookiesPolicy;
-	}
-	
-	public CookiesAcceptButton cookiesAcceptButton(){
-		return cookiesAcceptButton;
+	public WebElement getCookiesNotificationText() {
+		return cookiesNotificationText;
 	}
 
+	public WebElement getCookiesButton() {
+		return cookiesButton;
+	}
+
+	public WebElement getCookiesPolicyLink() {
+		return cookiesPolicyLink;
+	}
+	
+	public void pushThePolicyLink() {
+		if (cookiesButton.isEnabled()) {
+			new WebDriverWait(getDriver(), 1).until(ExpectedConditions.elementToBeClickable(cookiesPolicyLink)).click();
+		} else {
+			System.out.println("CookiesButton is NOT enabled");
+		}
+
+	}
+
+	public Response saveCookiesPolicyDocument() {
+		Response response = RestAssured.given().get(cookiesPolicyLink.getAttribute("href")).then().extract().response();
+		return response;
+	}
+
+	public Set<Cookie> acceptNonFunctionalCookies() {
+		new WebDriverWait(getDriver(), 1).until(ExpectedConditions.elementToBeClickable(cookiesButton)).click();
+		return getDriver().manage().getCookies();
+	}
 }
