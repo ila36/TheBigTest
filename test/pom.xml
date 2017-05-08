@@ -7,6 +7,13 @@
 	<name>testProject</name>
 	<description>unit-integration-ui-tests</description>
 
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<skipTests>false</skipTests>
+		<skipITs>${skipTests}</skipITs>
+		<skipUTs>${skipTests}</skipUTs>
+	</properties>
+
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -14,11 +21,17 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.19.1</version>
+					<configuration>
+						<skipTests>${skipUTs}</skipTests>
+					</configuration>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-failsafe-plugin</artifactId>
 					<version>2.19.1</version>
+					<configuration>
+						<skipTests>${skipITs}</skipTests>
+					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
@@ -125,6 +138,12 @@
 			<artifactId>groovy-json</artifactId>
 			<version>2.0.0-rc-4</version>
 		</dependency>
+		<dependency>
+			<groupId>org.codehaus.groovy</groupId>
+			<artifactId>groovy-xml</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+
 	</dependencies>
 
 </project>

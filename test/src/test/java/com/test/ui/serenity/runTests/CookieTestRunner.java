@@ -6,7 +6,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features", glue = {
-		"com.test.ui.serenity.stepDefinitions" }, tags = "@story")
+		"com.test.ui.serenity.stepDefinitions"}, tags = "@login")
 
 public class CookieTestRunner {
 }
