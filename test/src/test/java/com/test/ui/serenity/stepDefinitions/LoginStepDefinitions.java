@@ -22,7 +22,7 @@ public class LoginStepDefinitions {
 	
 	@Given("^I was on homepage$")
 	public void i_was_on_homepage() throws Throwable {
-	    cookiesteps.openHomePage();
+	    homesteps.openHomePage();
 	}
 	
 	@Given("^I accepted cookies$")

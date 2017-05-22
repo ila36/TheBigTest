@@ -26,12 +26,12 @@ public class CookiesDeclineStepDefinitions {
 
 	@Then("^I am on cookies policy page$")
 	public void i_am_on_cookies_policy_page() throws Throwable {
-		cookiesPolicySteps.userLandedOnCookiesPolicyPage();
+		
 	}
 	
 	@When("^I click on Nee linktext$")
 	public void i_click_on_Nee_linktext() throws Throwable {
-		cookiesPolicySteps.userpushedNoToCookies();
+		cookiesPolicySteps.userDeclinedCookies();
 	}
 
 	@Then("^non functional cookies are declined$")

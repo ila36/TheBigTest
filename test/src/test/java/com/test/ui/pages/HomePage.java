@@ -12,8 +12,8 @@ import net.thucydides.core.pages.PageObject;
 @DefaultUrl("https://www.woningnetregioamsterdam.nl/")
 public class HomePage extends PageObject {
 	
-	@Managed(uniqueSession = true, clearCookies = ClearCookiesPolicy.BeforeEachTest)
-
+	@Managed(clearCookies = ClearCookiesPolicy.BeforeEachTest)
+	
 	@FindBy(css = "body")
 	private WebElement body;
 
