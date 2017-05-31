@@ -1,0 +1,35 @@
+[INFO ] 2017-05-31 15:29:25 [main] openHomePage- @Before:Open homepage
+[INFO ] 2017-05-31 15:29:26 [main] assertCookiesPageElements- ASSERT COOKIESPAGE ELEMENTS
+[INFO ] 2017-05-31 15:29:27 [main] pushTheCookiesButton- After push 'Accept cookies' directed me to: https://www.woningnetregioamsterdam.nl/
+[INFO ] 2017-05-31 15:29:27 [main] acceptCookies- Cookies accepted
+[INFO ] 2017-05-31 15:29:32 [main] assertHomePageEnabled- Cookies page is displayed: false
+[INFO ] 2017-05-31 15:29:33 [main] closeHomePage- @After:Close homepage
+[INFO ] 2017-05-31 15:29:36 [main] openHomePage- @Before:Open homepage
+[DEBUG] 2017-05-31 15:29:36 [main] readCookiesFromFile- ADD COOKIE TO BROWSER :ASP.NET_SessionId=vogeo2tohepa1lgqx22mjuxd; path=/; domain=www.woningnetregioamsterdam.nl
+[DEBUG] 2017-05-31 15:29:36 [main] readCookiesFromFile- ADD COOKIE TO BROWSER :cc_cookie_accept=cc_cookie_accept; expires=Thu, 31 May 2018 03:29:27 CEST; path=/; domain=www.woningnetregioamsterdam.nl
+[DEBUG] 2017-05-31 15:29:36 [main] readCookiesFromFile- ADD COOKIE TO BROWSER :sra_amsterdam#lang=nl-NL; expires=Sat, 01 Jan 10000 01:00:00 CET; path=/; domain=www.woningnetregioamsterdam.nl
+[DEBUG] 2017-05-31 15:29:36 [main] readCookiesFromFile- ADD COOKIE TO BROWSER :cc_cookie_decline=null; expires=Sat, 01 Jan 10000 01:00:00 CET; path=/; domain=www.woningnetregioamsterdam.nl
+[INFO ] 2017-05-31 15:29:36 [main] addCookiesToBrowser- @Before:Add cookies to browser
+[INFO ] 2017-05-31 15:29:38 [main] openHomePage- @Before:Open homepage
+[INFO ] 2017-05-31 15:29:42 [main] assertHomePageEnabled- Cookies page is displayed: false
+[INFO ] 2017-05-31 15:29:43 [main] closeHomePage- @After:Close homepage
+[INFO ] 2017-05-31 15:29:46 [main] openHomePage- @Before:Open homepage
+[INFO ] 2017-05-31 15:29:46 [main] assertCookiesPageElements- ASSERT COOKIESPAGE ELEMENTS
+[INFO ] 2017-05-31 15:29:48 [main] pushThePolicyLink- After push 'Meer Informatie' directed me to: https://www.woningnetregioamsterdam.nl/cookiepolicy
+[INFO ] 2017-05-31 15:29:48 [main] userPushedThePolicyLink- Cookies accepted
+[DEBUG] 2017-05-31 15:29:49 [main] pushNee- After push 'Nee' directed me to: https://www.woningnetregioamsterdam.nl/
+[INFO ] 2017-05-31 15:29:54 [main] assertHomePageEnabled- Cookies page is displayed: false
+[INFO ] 2017-05-31 15:29:54 [main] closeHomePage- @After:Close homepage
+[INFO ] 2017-05-31 15:29:56 [main] openHomePage- @Before:Open homepage
+[DEBUG] 2017-05-31 15:29:57 [main] readCookiesFromFile- ADD COOKIE TO BROWSER :ASP.NET_SessionId=vavdvqxjfgf5fqogldo5q5we; path=/; domain=www.woningnetregioamsterdam.nl
+[DEBUG] 2017-05-31 15:29:57 [main] readCookiesFromFile- ADD COOKIE TO BROWSER :__utmz=null; path=/; domain=.woningnetregioamsterdam.nl
+[DEBUG] 2017-05-31 15:29:57 [main] readCookiesFromFile- ADD COOKIE TO BROWSER :__utmb=null; path=/; domain=.woningnetregioamsterdam.nl
+[DEBUG] 2017-05-31 15:29:57 [main] readCookiesFromFile- ADD COOKIE TO BROWSER :cc_cookie_accept=null; path=/; domain=www.woningnetregioamsterdam.nl
+[DEBUG] 2017-05-31 15:29:57 [main] readCookiesFromFile- ADD COOKIE TO BROWSER :__utmc=null; path=/; domain=.woningnetregioamsterdam.nl
+[DEBUG] 2017-05-31 15:29:57 [main] readCookiesFromFile- ADD COOKIE TO BROWSER :sra_amsterdam#lang=nl-NL; expires=Sat, 01 Jan 10000 01:00:00 CET; path=/; domain=www.woningnetregioamsterdam.nl
+[DEBUG] 2017-05-31 15:29:57 [main] readCookiesFromFile- ADD COOKIE TO BROWSER :__utma=null; expires=Sat, 01 Jan 10000 01:00:00 CET; path=/; domain=.woningnetregioamsterdam.nl
+[DEBUG] 2017-05-31 15:29:57 [main] readCookiesFromFile- ADD COOKIE TO BROWSER :cc_cookie_decline=cc_cookie_decline; expires=Thu, 31 May 2018 03:29:47 CEST; path=/; domain=www.woningnetregioamsterdam.nl
+[INFO ] 2017-05-31 15:29:57 [main] addCookiesToBrowser- @Before:Add cookies to browser
+[INFO ] 2017-05-31 15:29:58 [main] openHomePage- @Before:Open homepage
+[INFO ] 2017-05-31 15:30:02 [main] assertHomePageEnabled- Cookies page is displayed: false
+[INFO ] 2017-05-31 15:30:02 [main] closeHomePage- @After:Close homepage

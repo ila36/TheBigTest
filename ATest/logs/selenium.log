@@ -1,0 +1,518 @@
+[DEBUG] 2017-05-31 15:29:21 [main] preferencesIn- LOADING LOCAL PROPERTIES FROM /home/ila/git/testGitRepo/ATest/serenity.properties 
+[DEBUG] 2017-05-31 15:29:21 [main] preferencesIn- LOADING LOCAL PROPERTIES FROM /home/ila/git/testGitRepo/ATest/serenity.properties 
+[DEBUG] 2017-05-31 15:29:21 [main] preferencesIn- LOADING LOCAL PROPERTIES FROM /home/ila/git/testGitRepo/ATest/serenity.properties 
+[INFO ] 2017-05-31 15:29:21 [main] setUndefinedSystemPropertiesFrom- serenity.restart.browser.for.each=scenario
+[INFO ] 2017-05-31 15:29:21 [main] setUndefinedSystemPropertiesFrom- webdriver.driver=chrome
+[INFO ] 2017-05-31 15:29:21 [main] setUndefinedSystemPropertiesFrom- webdriver.chrome.driver=/home/ila/testSoftware/drivers/chromedriver
+[INFO ] 2017-05-31 15:29:21 [main] logBanner- 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+-------------------------------------------------------------------------------------
+
+[DEBUG] 2017-05-31 15:29:21 [main] testSuiteStarted- Test suite started for story net.thucydides.core.model.Story@64979ff6
+[INFO ] 2017-05-31 15:29:21 [main] testSuiteStarted- Test Suite Started: Accept non functional cookies
+[INFO ] 2017-05-31 15:29:21 [main] testStarted- 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: User accept cookies
+-------------------------------------------------------------------(accept-non-functional-cookies;user-accept-cookies)
+[DEBUG] 2017-05-31 15:29:21 [main] getRequirements- Loading requirements from /home/ila/git/testGitRepo/ATest/target/test-classes/features
+[DEBUG] 2017-05-31 15:29:21 [main] getRequirements- Loading requirements from /home/ila/git/testGitRepo/ATest/target/test-classes/features/cookies
+[DEBUG] 2017-05-31 15:29:21 [main] getRequirements- Loading requirements from /home/ila/git/testGitRepo/ATest/target/test-classes/features/login
+[DEBUG] 2017-05-31 15:29:22 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.i_navigate_to_homepage - openHomePage
+[DEBUG] 2017-05-31 15:29:22 [main] newDriver- Creating new driver instance with capabilities: Capabilities [{chrome.switches=null, browserName=chrome, chromeOptions=org.openqa.selenium.chrome.ChromeOptions@3836d82d, version=, platform=ANY}]
+[DEBUG] 2017-05-31 15:29:25 [main] isOpenForBusiness- Opening darkroom
+[DEBUG] 2017-05-31 15:29:25 [Darkroom Processing Line] run- Darkroom processing line starting up
+[DEBUG] 2017-05-31 15:29:25 [main] sendNegative- Send negative for processing for target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:25 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:25 [main] runTestStep- STEP DONE: openHomePage
+[DEBUG] 2017-05-31 15:29:25 [main] sendNegative- Send negative for processing for target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:25 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:26 [main] sendNegative- Send negative for processing for target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:26 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:26 [main] sendNegative- Send negative for processing for target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:26 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:26 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.i_am_shown_a_notification_about_cookies - assertCookiesPageElements
+[DEBUG] 2017-05-31 15:29:26 [main] sendNegative- Send negative for processing for target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:26 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:26 [main] runTestStep- STEP DONE: assertCookiesPageElements
+[DEBUG] 2017-05-31 15:29:26 [main] sendNegative- Send negative for processing for target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:26 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:26 [main] sendNegative- Send negative for processing for target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:26 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:27 [main] sendNegative- Send negative for processing for target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:27 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/14fa361b2858c4ac46871ce45a156e30f09fbf8626619113cc5e24193d22f07f.png
+[DEBUG] 2017-05-31 15:29:27 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.i_accept_cookies - acceptCookies
+[DEBUG] 2017-05-31 15:29:27 [main] sendNegative- Send negative for processing for target/site/serenity/6a28403dfeab522638bbf33ed3176731e649a7f408daddf7d35f052368cfa08b.png
+[DEBUG] 2017-05-31 15:29:27 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/6a28403dfeab522638bbf33ed3176731e649a7f408daddf7d35f052368cfa08b.png
+[DEBUG] 2017-05-31 15:29:27 [Darkroom Processing Line] saveProcessedScreenshot- Processing screenshot image in /var/screenshots/screenshot-1873287791059622268
+[DEBUG] 2017-05-31 15:29:27 [main] runTestStep- STEP DONE: acceptCookies
+[DEBUG] 2017-05-31 15:29:27 [Darkroom Processing Line] saveProcessedScreenshot- Saving screenshot to target/site/serenity/6a28403dfeab522638bbf33ed3176731e649a7f408daddf7d35f052368cfa08b.png
+[DEBUG] 2017-05-31 15:29:28 [main] sendNegative- Send negative for processing for target/site/serenity/7767f92b9b1fc1b16817b96a78a7891f8df68743d271a4a621929e70d1466521.png
+[DEBUG] 2017-05-31 15:29:28 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/7767f92b9b1fc1b16817b96a78a7891f8df68743d271a4a621929e70d1466521.png
+[DEBUG] 2017-05-31 15:29:28 [Darkroom Processing Line] saveProcessedScreenshot- Processing screenshot image in /var/screenshots/screenshot-6903047163464965646
+[DEBUG] 2017-05-31 15:29:28 [main] sendNegative- Send negative for processing for target/site/serenity/062c3274674f836c0abf79d453f55651837a19b173f77ee25771317d33a3c3ec.png
+[DEBUG] 2017-05-31 15:29:28 [Darkroom Processing Line] saveProcessedScreenshot- Saving screenshot to target/site/serenity/7767f92b9b1fc1b16817b96a78a7891f8df68743d271a4a621929e70d1466521.png
+[DEBUG] 2017-05-31 15:29:28 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/062c3274674f836c0abf79d453f55651837a19b173f77ee25771317d33a3c3ec.png
+[DEBUG] 2017-05-31 15:29:28 [main] sendNegative- Send negative for processing for target/site/serenity/3f6f18dc5ece2d8ad58f46bdc5b9331573c41cb6cfddc8361c7b741ac4009e25.png
+[DEBUG] 2017-05-31 15:29:28 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/3f6f18dc5ece2d8ad58f46bdc5b9331573c41cb6cfddc8361c7b741ac4009e25.png
+[DEBUG] 2017-05-31 15:29:28 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.woningnet_homepage_is_enabled - assertHomePageEnabled
+[DEBUG] 2017-05-31 15:29:33 [main] sendNegative- Send negative for processing for target/site/serenity/3f6f18dc5ece2d8ad58f46bdc5b9331573c41cb6cfddc8361c7b741ac4009e25.png
+[DEBUG] 2017-05-31 15:29:33 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/3f6f18dc5ece2d8ad58f46bdc5b9331573c41cb6cfddc8361c7b741ac4009e25.png
+[DEBUG] 2017-05-31 15:29:33 [main] runTestStep- STEP DONE: assertHomePageEnabled
+[DEBUG] 2017-05-31 15:29:33 [main] sendNegative- Send negative for processing for target/site/serenity/3f6f18dc5ece2d8ad58f46bdc5b9331573c41cb6cfddc8361c7b741ac4009e25.png
+[DEBUG] 2017-05-31 15:29:33 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/3f6f18dc5ece2d8ad58f46bdc5b9331573c41cb6cfddc8361c7b741ac4009e25.png
+[INFO ] 2017-05-31 15:29:33 [main] logSuccess- 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: User accept cookies
+----------------------------------------------------------------------------
+[DEBUG] 2017-05-31 15:29:33 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.cleanUp - closeHomePage
+[DEBUG] 2017-05-31 15:29:33 [main] runTestStep- STEP DONE: closeHomePage
+[DEBUG] 2017-05-31 15:29:33 [main] getDefaultReporters- Reporting formats: [JSON, HTML]
+[DEBUG] 2017-05-31 15:29:33 [main] getDefaultReporters- Found reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@119aa36(format = Optional.of(XML))
+[DEBUG] 2017-05-31 15:29:33 [main] getDefaultReporters- Found reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@4e1a46fb(format = Optional.of(JSON))
+[DEBUG] 2017-05-31 15:29:33 [main] getDefaultReporters- Registering reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@4e1a46fb
+[DEBUG] 2017-05-31 15:29:33 [main] getDefaultReporters- Found reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@445bb139(format = Optional.of(HTML))
+[DEBUG] 2017-05-31 15:29:33 [main] getDefaultReporters- Registering reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@445bb139
+[DEBUG] 2017-05-31 15:29:33 [main] generateReportsFor- Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@4e1a46fb
+[DEBUG] 2017-05-31 15:29:33 [main] generateReportsFor- GENERATING JUNIT REPORTS
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-1] run- Processing test outcome Accept non functional cookies:User accept cookies
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-1] generateReportFor- net.thucydides.core.reports.json.JSONTestOutcomeReporter@4e1a46fb: Generating report for test outcome: Accept non functional cookies:User accept cookies
+[INFO ] 2017-05-31 15:29:33 [pool-2-thread-1] generateReportFor- Generating JSON report for User accept cookies to file /home/ila/git/testGitRepo/ATest/target/site/serenity/c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.json (using temp file /home/ila/git/testGitRepo/ATest/target/site/serenity/c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.json8b6f0b7e-9985-4448-ab82-23008c15b364)
+[DEBUG] 2017-05-31 15:29:33 [main] generateReportsFor- GENERATING JUNIT REPORT SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xml using temporary file target/site/serenity/SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xmlcae16bc9-3c9d-4051-b33a-3ee02440c5bb
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-1] run- Processing test outcome Accept non functional cookies:User accept cookies done
+[DEBUG] 2017-05-31 15:29:33 [main] generateReportsFor- Reports generated in: 131 ms
+[DEBUG] 2017-05-31 15:29:33 [main] generateReportsFor- Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@445bb139
+[DEBUG] 2017-05-31 15:29:33 [main] generateReportsFor- GENERATING JUNIT REPORTS
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] run- Processing test outcome Accept non functional cookies:User accept cookies
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] generateReportFor- net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@445bb139: Generating report for test outcome: Accept non functional cookies:User accept cookies
+[DEBUG] 2017-05-31 15:29:33 [main] generateReportsFor- GENERATING JUNIT REPORT SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xml using temporary file target/site/serenity/SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xmle16f5c43-1f13-4cac-b19b-c8d75aaf186e
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] generateReportFor- GENERATE TEST OUTCOME REPORT FOR User accept cookies in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] getRequirements- Reading requirements from net.thucydides.core.requirements.PackageRequirementsTagProvider@3faea8ef
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] getRequirements- Reading requirements from net.thucydides.core.requirements.FileSystemRequirementsTagProvider@243d6940
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] getRequirements- Loading requirements from /home/ila/git/testGitRepo/ATest/target/test-classes/features
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] getRequirements- Loading requirements from /home/ila/git/testGitRepo/ATest/target/test-classes/features/cookies
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] getRequirements- Loading requirements from /home/ila/git/testGitRepo/ATest/target/test-classes/features/login
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] getRequirements- Requirements found:[Requirement{name='Cookies', type='capability' parent = 'null', cardNumber='null'}, Requirement{name='Login', type='capability' parent = 'null', cardNumber='null'}]
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] resizedImage- Resizing image target/site/serenity/7767f92b9b1fc1b16817b96a78a7891f8df68743d271a4a621929e70d1466521.png
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] resizedImage- Scaled image saved to target/site/serenity/scaled_7767f92b9b1fc1b16817b96a78a7891f8df68743d271a4a621929e70d1466521.png
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] resizedImage- Resizing image done -> /home/ila/git/testGitRepo/ATest/target/site/serenity/scaled_7767f92b9b1fc1b16817b96a78a7891f8df68743d271a4a621929e70d1466521.png
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] resizedImage- Resizing image target/site/serenity/6a28403dfeab522638bbf33ed3176731e649a7f408daddf7d35f052368cfa08b.png
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] resizedImage- Scaled image saved to target/site/serenity/scaled_6a28403dfeab522638bbf33ed3176731e649a7f408daddf7d35f052368cfa08b.png
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] resizedImage- Resizing image done -> /home/ila/git/testGitRepo/ATest/target/site/serenity/scaled_6a28403dfeab522638bbf33ed3176731e649a7f408daddf7d35f052368cfa08b.png
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:33 [pool-2-thread-2] generateReportPage- Generating report in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186_screenshots.html
+[DEBUG] 2017-05-31 15:29:34 [pool-2-thread-2] generateReportPage- Generated report c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186_screenshots.html in 247 ms
+[INFO ] 2017-05-31 15:29:34 [pool-2-thread-2] generateReportFor- GENERATING HTML REPORT FOR Accept non functional cookies:User accept cookies in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.html in directory target/site/serenity  
+[DEBUG] 2017-05-31 15:29:34 [pool-2-thread-2] generateReportPage- Generating report in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.html
+[DEBUG] 2017-05-31 15:29:34 [pool-2-thread-2] generateReportPage- Generated report c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.html in 63 ms
+[DEBUG] 2017-05-31 15:29:34 [pool-2-thread-2] run- Processing test outcome Accept non functional cookies:User accept cookies done
+[DEBUG] 2017-05-31 15:29:34 [main] generateReportsFor- Reports generated in: 410 ms
+[INFO ] 2017-05-31 15:29:34 [main] testStarted- 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: User already accepted cookies in a previous visit and visits the site again
+-------------------------------------------------------------------(accept-non-functional-cookies;user-already-accepted-cookies-in-a-previous-visit-and-visits-the-site-again)
+[DEBUG] 2017-05-31 15:29:34 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.setUp - openHomePage
+[DEBUG] 2017-05-31 15:29:34 [main] newDriver- Creating new driver instance with capabilities: Capabilities [{chrome.switches=null, browserName=chrome, chromeOptions=org.openqa.selenium.chrome.ChromeOptions@3836d82d, version=, platform=ANY}]
+[DEBUG] 2017-05-31 15:29:36 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:36 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:36 [main] runTestStep- STEP DONE: openHomePage
+[DEBUG] 2017-05-31 15:29:36 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:36 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:36 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.setUp - addCookiesToBrowser
+[DEBUG] 2017-05-31 15:29:36 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:36 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:36 [main] runTestStep- STEP DONE: addCookiesToBrowser
+[DEBUG] 2017-05-31 15:29:37 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:37 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:37 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:37 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:37 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.i_navigate_to_homepage - openHomePage
+[DEBUG] 2017-05-31 15:29:38 [main] sendNegative- Send negative for processing for target/site/serenity/bace96f21e88dd78d96062149c16389cc36007a5670d0957a095a2f932f7bbde.png
+[DEBUG] 2017-05-31 15:29:38 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/bace96f21e88dd78d96062149c16389cc36007a5670d0957a095a2f932f7bbde.png
+[DEBUG] 2017-05-31 15:29:38 [main] runTestStep- STEP DONE: openHomePage
+[DEBUG] 2017-05-31 15:29:38 [main] sendNegative- Send negative for processing for target/site/serenity/4f663bac8e606dbf08ab107d0eb1c8665d0dac87bd1d5653d7fe40d0b63081ed.png
+[DEBUG] 2017-05-31 15:29:38 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/4f663bac8e606dbf08ab107d0eb1c8665d0dac87bd1d5653d7fe40d0b63081ed.png
+[DEBUG] 2017-05-31 15:29:38 [main] sendNegative- Send negative for processing for target/site/serenity/4f663bac8e606dbf08ab107d0eb1c8665d0dac87bd1d5653d7fe40d0b63081ed.png
+[DEBUG] 2017-05-31 15:29:38 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/4f663bac8e606dbf08ab107d0eb1c8665d0dac87bd1d5653d7fe40d0b63081ed.png
+[DEBUG] 2017-05-31 15:29:38 [main] sendNegative- Send negative for processing for target/site/serenity/4f663bac8e606dbf08ab107d0eb1c8665d0dac87bd1d5653d7fe40d0b63081ed.png
+[DEBUG] 2017-05-31 15:29:38 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/4f663bac8e606dbf08ab107d0eb1c8665d0dac87bd1d5653d7fe40d0b63081ed.png
+[DEBUG] 2017-05-31 15:29:38 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.woningnet_homepage_is_enabled - assertHomePageEnabled
+[DEBUG] 2017-05-31 15:29:43 [main] sendNegative- Send negative for processing for target/site/serenity/4f663bac8e606dbf08ab107d0eb1c8665d0dac87bd1d5653d7fe40d0b63081ed.png
+[DEBUG] 2017-05-31 15:29:43 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/4f663bac8e606dbf08ab107d0eb1c8665d0dac87bd1d5653d7fe40d0b63081ed.png
+[DEBUG] 2017-05-31 15:29:43 [main] runTestStep- STEP DONE: assertHomePageEnabled
+[DEBUG] 2017-05-31 15:29:43 [main] sendNegative- Send negative for processing for target/site/serenity/4f663bac8e606dbf08ab107d0eb1c8665d0dac87bd1d5653d7fe40d0b63081ed.png
+[DEBUG] 2017-05-31 15:29:43 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/4f663bac8e606dbf08ab107d0eb1c8665d0dac87bd1d5653d7fe40d0b63081ed.png
+[INFO ] 2017-05-31 15:29:43 [main] logSuccess- 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: User already accepted cookies in a previous visit and visits the site again
+----------------------------------------------------------------------------
+[DEBUG] 2017-05-31 15:29:43 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.cleanUp - closeHomePage
+[DEBUG] 2017-05-31 15:29:43 [main] runTestStep- STEP DONE: closeHomePage
+[DEBUG] 2017-05-31 15:29:43 [main] getDefaultReporters- Reporting formats: [JSON, HTML]
+[DEBUG] 2017-05-31 15:29:43 [main] getDefaultReporters- Found reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@77681ce4(format = Optional.of(XML))
+[DEBUG] 2017-05-31 15:29:43 [main] getDefaultReporters- Found reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@5d96bdf8(format = Optional.of(JSON))
+[DEBUG] 2017-05-31 15:29:43 [main] getDefaultReporters- Registering reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@5d96bdf8
+[DEBUG] 2017-05-31 15:29:43 [main] getDefaultReporters- Found reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@6f76c2cc(format = Optional.of(HTML))
+[DEBUG] 2017-05-31 15:29:43 [main] getDefaultReporters- Registering reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@6f76c2cc
+[DEBUG] 2017-05-31 15:29:43 [main] generateReportsFor- Generating reports for 2 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@5d96bdf8
+[DEBUG] 2017-05-31 15:29:43 [main] generateReportsFor- GENERATING JUNIT REPORTS
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-3] run- Processing test outcome Accept non functional cookies:User accept cookies
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-4] run- Processing test outcome Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-3] generateReportFor- net.thucydides.core.reports.json.JSONTestOutcomeReporter@5d96bdf8: Generating report for test outcome: Accept non functional cookies:User accept cookies
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-4] generateReportFor- net.thucydides.core.reports.json.JSONTestOutcomeReporter@5d96bdf8: Generating report for test outcome: Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again
+[DEBUG] 2017-05-31 15:29:43 [main] generateReportsFor- GENERATING JUNIT REPORT SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xml using temporary file target/site/serenity/SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xml4e387d6b-7d05-4bf5-9329-aa629d1f4c8b
+[INFO ] 2017-05-31 15:29:43 [pool-2-thread-3] generateReportFor- Generating JSON report for User accept cookies to file /home/ila/git/testGitRepo/ATest/target/site/serenity/c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.json (using temp file /home/ila/git/testGitRepo/ATest/target/site/serenity/c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.json3557ab6f-021f-4123-8be6-45d6c7bd8b7e)
+[INFO ] 2017-05-31 15:29:43 [pool-2-thread-4] generateReportFor- Generating JSON report for User already accepted cookies in a previous visit and visits the site again to file /home/ila/git/testGitRepo/ATest/target/site/serenity/fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2.json (using temp file /home/ila/git/testGitRepo/ATest/target/site/serenity/fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2.jsonf2c1cab0-ecc3-4c9d-8b3e-054885221ada)
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-4] run- Processing test outcome Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again done
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-3] run- Processing test outcome Accept non functional cookies:User accept cookies done
+[DEBUG] 2017-05-31 15:29:43 [main] generateReportsFor- Reports generated in: 5 ms
+[DEBUG] 2017-05-31 15:29:43 [main] generateReportsFor- Generating reports for 2 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@6f76c2cc
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-5] run- Processing test outcome Accept non functional cookies:User accept cookies
+[DEBUG] 2017-05-31 15:29:43 [main] generateReportsFor- GENERATING JUNIT REPORTS
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-6] run- Processing test outcome Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-5] generateReportFor- net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@6f76c2cc: Generating report for test outcome: Accept non functional cookies:User accept cookies
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-6] generateReportFor- net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@6f76c2cc: Generating report for test outcome: Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-5] generateReportFor- GENERATE TEST OUTCOME REPORT FOR User accept cookies in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-6] generateReportFor- GENERATE TEST OUTCOME REPORT FOR User already accepted cookies in a previous visit and visits the site again in fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2
+[DEBUG] 2017-05-31 15:29:43 [main] generateReportsFor- GENERATING JUNIT REPORT SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xml using temporary file target/site/serenity/SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xmlda8277fb-bcc5-45dd-a900-1022d4fd2ba8
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-6] getAncestorRequirementsFor- Requirement found for test outcome User already accepted cookies in a previous visit and visits the site again-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-5] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-5] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-6] getAncestorRequirementsFor- Requirement found for test outcome User already accepted cookies in a previous visit and visits the site again-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-5] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-5] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-5] generateReportPage- Generating report in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186_screenshots.html
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-6] getAncestorRequirementsFor- Requirement found for test outcome User already accepted cookies in a previous visit and visits the site again-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-6] getAncestorRequirementsFor- Requirement found for test outcome User already accepted cookies in a previous visit and visits the site again-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-6] generateReportPage- Generating report in fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2_screenshots.html
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-5] generateReportPage- Generated report c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186_screenshots.html in 19 ms
+[INFO ] 2017-05-31 15:29:43 [pool-2-thread-5] generateReportFor- GENERATING HTML REPORT FOR Accept non functional cookies:User accept cookies in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.html in directory target/site/serenity  
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-5] generateReportPage- Generating report in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.html
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-6] generateReportPage- Generated report fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2_screenshots.html in 18 ms
+[INFO ] 2017-05-31 15:29:43 [pool-2-thread-6] generateReportFor- GENERATING HTML REPORT FOR Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again in fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2.html in directory target/site/serenity  
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-6] generateReportPage- Generating report in fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2.html
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-6] generateReportPage- Generated report fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2.html in 32 ms
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-6] run- Processing test outcome Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again done
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-5] generateReportPage- Generated report c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.html in 49 ms
+[DEBUG] 2017-05-31 15:29:43 [pool-2-thread-5] run- Processing test outcome Accept non functional cookies:User accept cookies done
+[DEBUG] 2017-05-31 15:29:43 [main] generateReportsFor- Reports generated in: 81 ms
+[DEBUG] 2017-05-31 15:29:43 [main] waitUntilClose- Closing darkroom
+[DEBUG] 2017-05-31 15:29:43 [Darkroom Processing Line] run- Darkroom processing line shutting down
+[DEBUG] 2017-05-31 15:29:43 [main] testSuiteStarted- Test suite started for story net.thucydides.core.model.Story@e5f906d2
+[INFO ] 2017-05-31 15:29:43 [main] testSuiteStarted- Test Suite Started: Decline non functional cookies
+[INFO ] 2017-05-31 15:29:43 [main] testStarted- 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: User decline cookies
+-------------------------------------------------------------------(decline-non-functional-cookies;user-decline-cookies)
+[DEBUG] 2017-05-31 15:29:43 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.i_navigate_to_homepage - openHomePage
+[DEBUG] 2017-05-31 15:29:43 [main] newDriver- Creating new driver instance with capabilities: Capabilities [{chrome.switches=null, browserName=chrome, chromeOptions=org.openqa.selenium.chrome.ChromeOptions@3836d82d, version=, platform=ANY}]
+[DEBUG] 2017-05-31 15:29:46 [main] isOpenForBusiness- Opening darkroom
+[DEBUG] 2017-05-31 15:29:46 [Darkroom Processing Line] run- Darkroom processing line starting up
+[DEBUG] 2017-05-31 15:29:46 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:46 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:46 [main] runTestStep- STEP DONE: openHomePage
+[DEBUG] 2017-05-31 15:29:46 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:46 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:46 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:46 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:46 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:46 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:46 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.i_am_shown_a_notification_about_cookies - assertCookiesPageElements
+[DEBUG] 2017-05-31 15:29:47 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:47 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:47 [main] runTestStep- STEP DONE: assertCookiesPageElements
+[DEBUG] 2017-05-31 15:29:47 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:47 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:47 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:47 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:47 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:47 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:47 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.i_choose_to_know_more_about_cookies_policy - userPushedThePolicyLink
+[DEBUG] 2017-05-31 15:29:48 [main] sendNegative- Send negative for processing for target/site/serenity/69270c475dc1d18785da9828b1fc0cc340cf4298cda7929e86ae0cd7f76a2703.png
+[DEBUG] 2017-05-31 15:29:48 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/69270c475dc1d18785da9828b1fc0cc340cf4298cda7929e86ae0cd7f76a2703.png
+[DEBUG] 2017-05-31 15:29:48 [main] runTestStep- STEP DONE: userPushedThePolicyLink
+[DEBUG] 2017-05-31 15:29:48 [main] sendNegative- Send negative for processing for target/site/serenity/69270c475dc1d18785da9828b1fc0cc340cf4298cda7929e86ae0cd7f76a2703.png
+[DEBUG] 2017-05-31 15:29:48 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/69270c475dc1d18785da9828b1fc0cc340cf4298cda7929e86ae0cd7f76a2703.png
+[DEBUG] 2017-05-31 15:29:48 [main] sendNegative- Send negative for processing for target/site/serenity/69270c475dc1d18785da9828b1fc0cc340cf4298cda7929e86ae0cd7f76a2703.png
+[DEBUG] 2017-05-31 15:29:48 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/69270c475dc1d18785da9828b1fc0cc340cf4298cda7929e86ae0cd7f76a2703.png
+[DEBUG] 2017-05-31 15:29:49 [main] sendNegative- Send negative for processing for target/site/serenity/69270c475dc1d18785da9828b1fc0cc340cf4298cda7929e86ae0cd7f76a2703.png
+[DEBUG] 2017-05-31 15:29:49 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/69270c475dc1d18785da9828b1fc0cc340cf4298cda7929e86ae0cd7f76a2703.png
+[DEBUG] 2017-05-31 15:29:49 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.i_choose_to_decline_cookies - declineCookies
+[DEBUG] 2017-05-31 15:29:49 [main] sendNegative- Send negative for processing for target/site/serenity/dc1f3cf17c73575f9fbf299bbc230bffbd07dcbdcbc110b6300135a9a58bcd42.png
+[DEBUG] 2017-05-31 15:29:49 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/dc1f3cf17c73575f9fbf299bbc230bffbd07dcbdcbc110b6300135a9a58bcd42.png
+[DEBUG] 2017-05-31 15:29:49 [main] runTestStep- STEP DONE: declineCookies
+[DEBUG] 2017-05-31 15:29:49 [main] sendNegative- Send negative for processing for target/site/serenity/dc1f3cf17c73575f9fbf299bbc230bffbd07dcbdcbc110b6300135a9a58bcd42.png
+[DEBUG] 2017-05-31 15:29:49 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/dc1f3cf17c73575f9fbf299bbc230bffbd07dcbdcbc110b6300135a9a58bcd42.png
+[DEBUG] 2017-05-31 15:29:50 [main] sendNegative- Send negative for processing for target/site/serenity/dc1f3cf17c73575f9fbf299bbc230bffbd07dcbdcbc110b6300135a9a58bcd42.png
+[DEBUG] 2017-05-31 15:29:50 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/dc1f3cf17c73575f9fbf299bbc230bffbd07dcbdcbc110b6300135a9a58bcd42.png
+[DEBUG] 2017-05-31 15:29:50 [main] sendNegative- Send negative for processing for target/site/serenity/dc1f3cf17c73575f9fbf299bbc230bffbd07dcbdcbc110b6300135a9a58bcd42.png
+[DEBUG] 2017-05-31 15:29:50 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/dc1f3cf17c73575f9fbf299bbc230bffbd07dcbdcbc110b6300135a9a58bcd42.png
+[DEBUG] 2017-05-31 15:29:50 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.woningnet_homepage_is_enabled - assertHomePageEnabled
+[DEBUG] 2017-05-31 15:29:54 [main] sendNegative- Send negative for processing for target/site/serenity/02bda11bd6bbf11f89a85da8713f8f44341afcf5770ae4a74a9548026dbbc1c0.png
+[DEBUG] 2017-05-31 15:29:54 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/02bda11bd6bbf11f89a85da8713f8f44341afcf5770ae4a74a9548026dbbc1c0.png
+[DEBUG] 2017-05-31 15:29:54 [Darkroom Processing Line] saveProcessedScreenshot- Processing screenshot image in /var/screenshots/screenshot-7995558647155716591
+[DEBUG] 2017-05-31 15:29:54 [main] runTestStep- STEP DONE: assertHomePageEnabled
+[DEBUG] 2017-05-31 15:29:54 [main] sendNegative- Send negative for processing for target/site/serenity/02bda11bd6bbf11f89a85da8713f8f44341afcf5770ae4a74a9548026dbbc1c0.png
+[DEBUG] 2017-05-31 15:29:54 [Darkroom Processing Line] saveProcessedScreenshot- Saving screenshot to target/site/serenity/02bda11bd6bbf11f89a85da8713f8f44341afcf5770ae4a74a9548026dbbc1c0.png
+[DEBUG] 2017-05-31 15:29:54 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/02bda11bd6bbf11f89a85da8713f8f44341afcf5770ae4a74a9548026dbbc1c0.png
+[INFO ] 2017-05-31 15:29:54 [main] logSuccess- 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: User decline cookies
+----------------------------------------------------------------------------
+[DEBUG] 2017-05-31 15:29:54 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.cleanUp - closeHomePage
+[DEBUG] 2017-05-31 15:29:54 [main] runTestStep- STEP DONE: closeHomePage
+[DEBUG] 2017-05-31 15:29:54 [main] getDefaultReporters- Reporting formats: [JSON, HTML]
+[DEBUG] 2017-05-31 15:29:54 [main] getDefaultReporters- Found reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@288f173f(format = Optional.of(XML))
+[DEBUG] 2017-05-31 15:29:54 [main] getDefaultReporters- Found reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@a22c4d8(format = Optional.of(JSON))
+[DEBUG] 2017-05-31 15:29:54 [main] getDefaultReporters- Registering reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@a22c4d8
+[DEBUG] 2017-05-31 15:29:54 [main] getDefaultReporters- Found reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@45cd7bc5(format = Optional.of(HTML))
+[DEBUG] 2017-05-31 15:29:54 [main] getDefaultReporters- Registering reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@45cd7bc5
+[DEBUG] 2017-05-31 15:29:54 [main] generateReportsFor- Generating reports for 3 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@a22c4d8
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-7] run- Processing test outcome Accept non functional cookies:User accept cookies
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-1] run- Processing test outcome Decline non functional cookies:User decline cookies
+[DEBUG] 2017-05-31 15:29:54 [main] generateReportsFor- GENERATING JUNIT REPORTS
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-7] generateReportFor- net.thucydides.core.reports.json.JSONTestOutcomeReporter@a22c4d8: Generating report for test outcome: Accept non functional cookies:User accept cookies
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-1] generateReportFor- net.thucydides.core.reports.json.JSONTestOutcomeReporter@a22c4d8: Generating report for test outcome: Decline non functional cookies:User decline cookies
+[INFO ] 2017-05-31 15:29:54 [pool-2-thread-7] generateReportFor- Generating JSON report for User accept cookies to file /home/ila/git/testGitRepo/ATest/target/site/serenity/c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.json (using temp file /home/ila/git/testGitRepo/ATest/target/site/serenity/c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.jsoncad2e1ff-cc0d-4812-90c6-fc3c085bb123)
+[INFO ] 2017-05-31 15:29:54 [pool-2-thread-1] generateReportFor- Generating JSON report for User decline cookies to file /home/ila/git/testGitRepo/ATest/target/site/serenity/5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.json (using temp file /home/ila/git/testGitRepo/ATest/target/site/serenity/5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.json5114abb7-48b9-4899-aece-465eb29e322b)
+[DEBUG] 2017-05-31 15:29:54 [main] generateReportsFor- GENERATING JUNIT REPORT SERENITY-JUNIT-5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.xml using temporary file target/site/serenity/SERENITY-JUNIT-5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.xmlcd00ff9c-be3b-422a-86f6-b60554e58935
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-7] run- Processing test outcome Accept non functional cookies:User accept cookies done
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-8] run- Processing test outcome Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-8] generateReportFor- net.thucydides.core.reports.json.JSONTestOutcomeReporter@a22c4d8: Generating report for test outcome: Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-1] run- Processing test outcome Decline non functional cookies:User decline cookies done
+[INFO ] 2017-05-31 15:29:54 [pool-2-thread-8] generateReportFor- Generating JSON report for User already accepted cookies in a previous visit and visits the site again to file /home/ila/git/testGitRepo/ATest/target/site/serenity/fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2.json (using temp file /home/ila/git/testGitRepo/ATest/target/site/serenity/fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2.json94526a90-129e-4b72-804a-afb872ba5f25)
+[DEBUG] 2017-05-31 15:29:54 [main] generateReportsFor- GENERATING JUNIT REPORT SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xml using temporary file target/site/serenity/SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xmld2488629-c421-462b-866f-564256d9c750
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-8] run- Processing test outcome Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again done
+[DEBUG] 2017-05-31 15:29:54 [main] generateReportsFor- Reports generated in: 8 ms
+[DEBUG] 2017-05-31 15:29:54 [main] generateReportsFor- Generating reports for 3 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@45cd7bc5
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-2] run- Processing test outcome Accept non functional cookies:User accept cookies
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-3] run- Processing test outcome Decline non functional cookies:User decline cookies
+[DEBUG] 2017-05-31 15:29:54 [main] generateReportsFor- GENERATING JUNIT REPORTS
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-4] run- Processing test outcome Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-3] generateReportFor- net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@45cd7bc5: Generating report for test outcome: Decline non functional cookies:User decline cookies
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-2] generateReportFor- net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@45cd7bc5: Generating report for test outcome: Accept non functional cookies:User accept cookies
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-4] generateReportFor- net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@45cd7bc5: Generating report for test outcome: Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-3] generateReportFor- GENERATE TEST OUTCOME REPORT FOR User decline cookies in 5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-2] generateReportFor- GENERATE TEST OUTCOME REPORT FOR User accept cookies in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-4] generateReportFor- GENERATE TEST OUTCOME REPORT FOR User already accepted cookies in a previous visit and visits the site again in fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2
+[DEBUG] 2017-05-31 15:29:54 [main] generateReportsFor- GENERATING JUNIT REPORT SERENITY-JUNIT-5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.xml using temporary file target/site/serenity/SERENITY-JUNIT-5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.xml85dff191-02d2-4a00-9b4a-1d3ff035c36d
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-3] getAncestorRequirementsFor- Requirement found for test outcome User decline cookies-[]: Optional.of(Requirement{name='Decline non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-4] getAncestorRequirementsFor- Requirement found for test outcome User already accepted cookies in a previous visit and visits the site again-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-2] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-4] getAncestorRequirementsFor- Requirement found for test outcome User already accepted cookies in a previous visit and visits the site again-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-2] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-3] getAncestorRequirementsFor- Requirement found for test outcome User decline cookies-[]: Optional.of(Requirement{name='Decline non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:54 [main] generateReportsFor- GENERATING JUNIT REPORT SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xml using temporary file target/site/serenity/SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xmle887ca19-6f78-4c0b-94c9-d0ded3d5480d
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-4] getAncestorRequirementsFor- Requirement found for test outcome User already accepted cookies in a previous visit and visits the site again-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-4] getAncestorRequirementsFor- Requirement found for test outcome User already accepted cookies in a previous visit and visits the site again-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-2] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-4] generateReportPage- Generating report in fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2_screenshots.html
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-2] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-2] generateReportPage- Generating report in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186_screenshots.html
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-4] generateReportPage- Generated report fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2_screenshots.html in 8 ms
+[INFO ] 2017-05-31 15:29:54 [pool-2-thread-4] generateReportFor- GENERATING HTML REPORT FOR Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again in fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2.html in directory target/site/serenity  
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-4] generateReportPage- Generating report in fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2.html
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-2] generateReportPage- Generated report c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186_screenshots.html in 9 ms
+[INFO ] 2017-05-31 15:29:54 [pool-2-thread-2] generateReportFor- GENERATING HTML REPORT FOR Accept non functional cookies:User accept cookies in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.html in directory target/site/serenity  
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-2] generateReportPage- Generating report in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.html
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-4] generateReportPage- Generated report fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2.html in 18 ms
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-4] run- Processing test outcome Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again done
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-3] resizedImage- Resizing image target/site/serenity/02bda11bd6bbf11f89a85da8713f8f44341afcf5770ae4a74a9548026dbbc1c0.png
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-3] resizedImage- Scaled image saved to target/site/serenity/scaled_02bda11bd6bbf11f89a85da8713f8f44341afcf5770ae4a74a9548026dbbc1c0.png
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-3] resizedImage- Resizing image done -> /home/ila/git/testGitRepo/ATest/target/site/serenity/scaled_02bda11bd6bbf11f89a85da8713f8f44341afcf5770ae4a74a9548026dbbc1c0.png
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-3] getAncestorRequirementsFor- Requirement found for test outcome User decline cookies-[]: Optional.of(Requirement{name='Decline non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-3] getAncestorRequirementsFor- Requirement found for test outcome User decline cookies-[]: Optional.of(Requirement{name='Decline non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-3] generateReportPage- Generating report in 5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4_screenshots.html
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-2] generateReportPage- Generated report c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.html in 24 ms
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-2] run- Processing test outcome Accept non functional cookies:User accept cookies done
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-3] generateReportPage- Generated report 5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4_screenshots.html in 7 ms
+[INFO ] 2017-05-31 15:29:54 [pool-2-thread-3] generateReportFor- GENERATING HTML REPORT FOR Decline non functional cookies:User decline cookies in 5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.html in directory target/site/serenity  
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-3] generateReportPage- Generating report in 5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.html
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-3] generateReportPage- Generated report 5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.html in 27 ms
+[DEBUG] 2017-05-31 15:29:54 [pool-2-thread-3] run- Processing test outcome Decline non functional cookies:User decline cookies done
+[DEBUG] 2017-05-31 15:29:54 [main] generateReportsFor- Reports generated in: 80 ms
+[INFO ] 2017-05-31 15:29:54 [main] testStarted- 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: User already declined cookies in a previous visit and visits the site again.
+-------------------------------------------------------------------(decline-non-functional-cookies;user-already-declined-cookies-in-a-previous-visit-and-visits-the-site-again.)
+[DEBUG] 2017-05-31 15:29:54 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.setUp - openHomePage
+[DEBUG] 2017-05-31 15:29:54 [main] newDriver- Creating new driver instance with capabilities: Capabilities [{chrome.switches=null, browserName=chrome, chromeOptions=org.openqa.selenium.chrome.ChromeOptions@3836d82d, version=, platform=ANY}]
+[DEBUG] 2017-05-31 15:29:57 [main] sendNegative- Send negative for processing for target/site/serenity/d97e9866a9ef7f4851e4087fe97d12a4a38fa3b31f70cad438f8d4f8f172ea87.png
+[DEBUG] 2017-05-31 15:29:57 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/d97e9866a9ef7f4851e4087fe97d12a4a38fa3b31f70cad438f8d4f8f172ea87.png
+[DEBUG] 2017-05-31 15:29:57 [main] runTestStep- STEP DONE: openHomePage
+[DEBUG] 2017-05-31 15:29:57 [main] sendNegative- Send negative for processing for target/site/serenity/d97e9866a9ef7f4851e4087fe97d12a4a38fa3b31f70cad438f8d4f8f172ea87.png
+[DEBUG] 2017-05-31 15:29:57 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/d97e9866a9ef7f4851e4087fe97d12a4a38fa3b31f70cad438f8d4f8f172ea87.png
+[DEBUG] 2017-05-31 15:29:57 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.setUp - addCookiesToBrowser
+[DEBUG] 2017-05-31 15:29:57 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:57 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:57 [main] runTestStep- STEP DONE: addCookiesToBrowser
+[DEBUG] 2017-05-31 15:29:57 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:57 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:57 [main] sendNegative- Send negative for processing for target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:57 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/e7c90481afd5166b6431b205335ebc2ace4c76f6af41d993b2ee05f0bb908f5e.png
+[DEBUG] 2017-05-31 15:29:57 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.i_navigate_to_homepage - openHomePage
+[DEBUG] 2017-05-31 15:29:58 [main] sendNegative- Send negative for processing for target/site/serenity/2af6813834bcc8ec82c14b23d739f448f4a24b9c7015ffb52a8eaef2475d781e.png
+[DEBUG] 2017-05-31 15:29:58 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/2af6813834bcc8ec82c14b23d739f448f4a24b9c7015ffb52a8eaef2475d781e.png
+[DEBUG] 2017-05-31 15:29:58 [main] runTestStep- STEP DONE: openHomePage
+[DEBUG] 2017-05-31 15:29:58 [main] sendNegative- Send negative for processing for target/site/serenity/2af6813834bcc8ec82c14b23d739f448f4a24b9c7015ffb52a8eaef2475d781e.png
+[DEBUG] 2017-05-31 15:29:58 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/2af6813834bcc8ec82c14b23d739f448f4a24b9c7015ffb52a8eaef2475d781e.png
+[DEBUG] 2017-05-31 15:29:58 [main] sendNegative- Send negative for processing for target/site/serenity/2af6813834bcc8ec82c14b23d739f448f4a24b9c7015ffb52a8eaef2475d781e.png
+[DEBUG] 2017-05-31 15:29:58 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/2af6813834bcc8ec82c14b23d739f448f4a24b9c7015ffb52a8eaef2475d781e.png
+[DEBUG] 2017-05-31 15:29:58 [main] sendNegative- Send negative for processing for target/site/serenity/2af6813834bcc8ec82c14b23d739f448f4a24b9c7015ffb52a8eaef2475d781e.png
+[DEBUG] 2017-05-31 15:29:58 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/2af6813834bcc8ec82c14b23d739f448f4a24b9c7015ffb52a8eaef2475d781e.png
+[DEBUG] 2017-05-31 15:29:58 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.woningnet_homepage_is_enabled - assertHomePageEnabled
+[DEBUG] 2017-05-31 15:30:02 [main] sendNegative- Send negative for processing for target/site/serenity/96f8a74a5c81ae7faadba21b59ef68e9f8e50cb0eb20236fdcfaca69e605f2fa.png
+[DEBUG] 2017-05-31 15:30:02 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/96f8a74a5c81ae7faadba21b59ef68e9f8e50cb0eb20236fdcfaca69e605f2fa.png
+[DEBUG] 2017-05-31 15:30:02 [main] runTestStep- STEP DONE: assertHomePageEnabled
+[DEBUG] 2017-05-31 15:30:02 [main] sendNegative- Send negative for processing for target/site/serenity/96f8a74a5c81ae7faadba21b59ef68e9f8e50cb0eb20236fdcfaca69e605f2fa.png
+[DEBUG] 2017-05-31 15:30:02 [main] storedScreenshot- Screenshot scheduled to be saved to target/site/serenity/96f8a74a5c81ae7faadba21b59ef68e9f8e50cb0eb20236fdcfaca69e605f2fa.png
+[INFO ] 2017-05-31 15:30:02 [main] logSuccess- 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: User already declined cookies in a previous visit and visits the site again.
+----------------------------------------------------------------------------
+[DEBUG] 2017-05-31 15:30:02 [main] runTestStep- STARTING STEP: CookiesStepDefinitions.cleanUp - closeHomePage
+[DEBUG] 2017-05-31 15:30:02 [main] runTestStep- STEP DONE: closeHomePage
+[DEBUG] 2017-05-31 15:30:02 [main] getDefaultReporters- Reporting formats: [JSON, HTML]
+[DEBUG] 2017-05-31 15:30:02 [main] getDefaultReporters- Found reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@526b2f3e(format = Optional.of(XML))
+[DEBUG] 2017-05-31 15:30:02 [main] getDefaultReporters- Found reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@6f2e1024(format = Optional.of(JSON))
+[DEBUG] 2017-05-31 15:30:02 [main] getDefaultReporters- Registering reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@6f2e1024
+[DEBUG] 2017-05-31 15:30:02 [main] getDefaultReporters- Found reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@536d97f8(format = Optional.of(HTML))
+[DEBUG] 2017-05-31 15:30:02 [main] getDefaultReporters- Registering reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@536d97f8
+[DEBUG] 2017-05-31 15:30:02 [main] generateReportsFor- Generating reports for 4 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@6f2e1024
+[DEBUG] 2017-05-31 15:30:02 [main] generateReportsFor- GENERATING JUNIT REPORTS
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-6] run- Processing test outcome Accept non functional cookies:User accept cookies
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-6] generateReportFor- net.thucydides.core.reports.json.JSONTestOutcomeReporter@6f2e1024: Generating report for test outcome: Accept non functional cookies:User accept cookies
+[DEBUG] 2017-05-31 15:30:02 [main] generateReportsFor- GENERATING JUNIT REPORT SERENITY-JUNIT-5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.xml using temporary file target/site/serenity/SERENITY-JUNIT-5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.xml113f8cee-50cd-42b1-af06-2087daff08ac
+[INFO ] 2017-05-31 15:30:02 [pool-2-thread-6] generateReportFor- Generating JSON report for User accept cookies to file /home/ila/git/testGitRepo/ATest/target/site/serenity/c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.json (using temp file /home/ila/git/testGitRepo/ATest/target/site/serenity/c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.jsonfe121b46-6dae-4d49-9750-ce56166860a4)
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-6] run- Processing test outcome Accept non functional cookies:User accept cookies done
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-6] run- Processing test outcome Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-6] generateReportFor- net.thucydides.core.reports.json.JSONTestOutcomeReporter@6f2e1024: Generating report for test outcome: Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again
+[INFO ] 2017-05-31 15:30:02 [pool-2-thread-6] generateReportFor- Generating JSON report for User already accepted cookies in a previous visit and visits the site again to file /home/ila/git/testGitRepo/ATest/target/site/serenity/fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2.json (using temp file /home/ila/git/testGitRepo/ATest/target/site/serenity/fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2.json578c5770-bbea-4a4b-85d9-384de4883d66)
+[DEBUG] 2017-05-31 15:30:02 [main] generateReportsFor- GENERATING JUNIT REPORT SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xml using temporary file target/site/serenity/SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xmlab7dbdd3-916d-4bbc-9e65-165466d43c71
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-5] run- Processing test outcome Decline non functional cookies:User decline cookies
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-5] generateReportFor- net.thucydides.core.reports.json.JSONTestOutcomeReporter@6f2e1024: Generating report for test outcome: Decline non functional cookies:User decline cookies
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-7] run- Processing test outcome Decline non functional cookies:User already declined cookies in a previous visit and visits the site again.
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-7] generateReportFor- net.thucydides.core.reports.json.JSONTestOutcomeReporter@6f2e1024: Generating report for test outcome: Decline non functional cookies:User already declined cookies in a previous visit and visits the site again.
+[INFO ] 2017-05-31 15:30:02 [pool-2-thread-5] generateReportFor- Generating JSON report for User decline cookies to file /home/ila/git/testGitRepo/ATest/target/site/serenity/5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.json (using temp file /home/ila/git/testGitRepo/ATest/target/site/serenity/5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.json69bcc397-58f4-404f-962b-335c6a5509cd)
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-5] run- Processing test outcome Decline non functional cookies:User decline cookies done
+[INFO ] 2017-05-31 15:30:02 [pool-2-thread-7] generateReportFor- Generating JSON report for User already declined cookies in a previous visit and visits the site again. to file /home/ila/git/testGitRepo/ATest/target/site/serenity/3318f477eccba03eefcecfdf36bb35c7997716c04c0320a4414bb73b27849455.json (using temp file /home/ila/git/testGitRepo/ATest/target/site/serenity/3318f477eccba03eefcecfdf36bb35c7997716c04c0320a4414bb73b27849455.json1575f2b4-a635-4d93-9ff2-18835bfb61f3)
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-6] run- Processing test outcome Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again done
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-7] run- Processing test outcome Decline non functional cookies:User already declined cookies in a previous visit and visits the site again. done
+[DEBUG] 2017-05-31 15:30:02 [main] generateReportsFor- Reports generated in: 26 ms
+[DEBUG] 2017-05-31 15:30:02 [main] generateReportsFor- Generating reports for 4 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@536d97f8
+[DEBUG] 2017-05-31 15:30:02 [main] generateReportsFor- GENERATING JUNIT REPORTS
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-8] run- Processing test outcome Accept non functional cookies:User accept cookies
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-2] run- Processing test outcome Decline non functional cookies:User decline cookies
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-3] run- Processing test outcome Decline non functional cookies:User already declined cookies in a previous visit and visits the site again.
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-4] run- Processing test outcome Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-3] generateReportFor- net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@536d97f8: Generating report for test outcome: Decline non functional cookies:User already declined cookies in a previous visit and visits the site again.
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-8] generateReportFor- net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@536d97f8: Generating report for test outcome: Accept non functional cookies:User accept cookies
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-2] generateReportFor- net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@536d97f8: Generating report for test outcome: Decline non functional cookies:User decline cookies
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-8] generateReportFor- GENERATE TEST OUTCOME REPORT FOR User accept cookies in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186
+[DEBUG] 2017-05-31 15:30:02 [main] generateReportsFor- GENERATING JUNIT REPORT SERENITY-JUNIT-5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.xml using temporary file target/site/serenity/SERENITY-JUNIT-5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.xmlcec01601-3ea9-4112-960d-bc0dfebbede1
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-4] generateReportFor- net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@536d97f8: Generating report for test outcome: Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-3] generateReportFor- GENERATE TEST OUTCOME REPORT FOR User already declined cookies in a previous visit and visits the site again. in 3318f477eccba03eefcecfdf36bb35c7997716c04c0320a4414bb73b27849455
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-2] generateReportFor- GENERATE TEST OUTCOME REPORT FOR User decline cookies in 5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-4] generateReportFor- GENERATE TEST OUTCOME REPORT FOR User already accepted cookies in a previous visit and visits the site again in fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-8] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-4] getAncestorRequirementsFor- Requirement found for test outcome User already accepted cookies in a previous visit and visits the site again-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-2] getAncestorRequirementsFor- Requirement found for test outcome User decline cookies-[]: Optional.of(Requirement{name='Decline non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-3] getAncestorRequirementsFor- Requirement found for test outcome User already declined cookies in a previous visit and visits the site again.-[]: Optional.of(Requirement{name='Decline non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-8] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-4] getAncestorRequirementsFor- Requirement found for test outcome User already accepted cookies in a previous visit and visits the site again-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-2] getAncestorRequirementsFor- Requirement found for test outcome User decline cookies-[]: Optional.of(Requirement{name='Decline non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [main] generateReportsFor- GENERATING JUNIT REPORT SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xml using temporary file target/site/serenity/SERENITY-JUNIT-c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.xml00465d7f-51cd-43f1-a4f9-999ce12aa4f7
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-4] getAncestorRequirementsFor- Requirement found for test outcome User already accepted cookies in a previous visit and visits the site again-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-4] getAncestorRequirementsFor- Requirement found for test outcome User already accepted cookies in a previous visit and visits the site again-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-8] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-4] generateReportPage- Generating report in fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2_screenshots.html
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-2] getAncestorRequirementsFor- Requirement found for test outcome User decline cookies-[]: Optional.of(Requirement{name='Decline non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-3] getAncestorRequirementsFor- Requirement found for test outcome User already declined cookies in a previous visit and visits the site again.-[]: Optional.of(Requirement{name='Decline non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-2] getAncestorRequirementsFor- Requirement found for test outcome User decline cookies-[]: Optional.of(Requirement{name='Decline non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-2] generateReportPage- Generating report in 5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4_screenshots.html
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-8] getAncestorRequirementsFor- Requirement found for test outcome User accept cookies-[]: Optional.of(Requirement{name='Accept non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-8] generateReportPage- Generating report in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186_screenshots.html
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-2] generateReportPage- Generated report 5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4_screenshots.html in 7 ms
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-8] generateReportPage- Generated report c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186_screenshots.html in 4 ms
+[INFO ] 2017-05-31 15:30:02 [pool-2-thread-8] generateReportFor- GENERATING HTML REPORT FOR Accept non functional cookies:User accept cookies in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.html in directory target/site/serenity  
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-8] generateReportPage- Generating report in c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.html
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-4] generateReportPage- Generated report fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2_screenshots.html in 14 ms
+[INFO ] 2017-05-31 15:30:02 [pool-2-thread-4] generateReportFor- GENERATING HTML REPORT FOR Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again in fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2.html in directory target/site/serenity  
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-4] generateReportPage- Generating report in fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2.html
+[INFO ] 2017-05-31 15:30:02 [pool-2-thread-2] generateReportFor- GENERATING HTML REPORT FOR Decline non functional cookies:User decline cookies in 5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.html in directory target/site/serenity  
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-3] getAncestorRequirementsFor- Requirement found for test outcome User already declined cookies in a previous visit and visits the site again.-[]: Optional.of(Requirement{name='Decline non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-3] getAncestorRequirementsFor- Requirement found for test outcome User already declined cookies in a previous visit and visits the site again.-[]: Optional.of(Requirement{name='Decline non functional cookies', type='feature' parent = 'Cookies', cardNumber='null'})
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-3] generateReportPage- Generating report in 3318f477eccba03eefcecfdf36bb35c7997716c04c0320a4414bb73b27849455_screenshots.html
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-2] generateReportPage- Generating report in 5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.html
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-4] generateReportPage- Generated report fd20e487b79c6bf4bfb8fc51eac086e38cdd8c84f1312e50f69726e9b682b5a2.html in 20 ms
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-4] run- Processing test outcome Accept non functional cookies:User already accepted cookies in a previous visit and visits the site again done
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-3] generateReportPage- Generated report 3318f477eccba03eefcecfdf36bb35c7997716c04c0320a4414bb73b27849455_screenshots.html in 15 ms
+[INFO ] 2017-05-31 15:30:02 [pool-2-thread-3] generateReportFor- GENERATING HTML REPORT FOR Decline non functional cookies:User already declined cookies in a previous visit and visits the site again. in 3318f477eccba03eefcecfdf36bb35c7997716c04c0320a4414bb73b27849455.html in directory target/site/serenity  
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-3] generateReportPage- Generating report in 3318f477eccba03eefcecfdf36bb35c7997716c04c0320a4414bb73b27849455.html
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-8] generateReportPage- Generated report c1971f43a2dd44c2b020685bba0db7b255742c2909f08840330502eba8e79186.html in 28 ms
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-8] run- Processing test outcome Accept non functional cookies:User accept cookies done
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-3] generateReportPage- Generated report 3318f477eccba03eefcecfdf36bb35c7997716c04c0320a4414bb73b27849455.html in 14 ms
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-2] generateReportPage- Generated report 5d223ff486ca05aa80b965549946ccfbcf7beea1e6aaea0b77cf63d7f28bc4c4.html in 30 ms
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-3] run- Processing test outcome Decline non functional cookies:User already declined cookies in a previous visit and visits the site again. done
+[DEBUG] 2017-05-31 15:30:02 [pool-2-thread-2] run- Processing test outcome Decline non functional cookies:User decline cookies done
+[DEBUG] 2017-05-31 15:30:02 [main] generateReportsFor- Reports generated in: 59 ms
+[DEBUG] 2017-05-31 15:30:02 [main] waitUntilClose- Closing darkroom
+[DEBUG] 2017-05-31 15:30:02 [Darkroom Processing Line] run- Darkroom processing line shutting down
+[DEBUG] 2017-05-31 15:30:02 [main] waitUntilClose- Closing darkroom
